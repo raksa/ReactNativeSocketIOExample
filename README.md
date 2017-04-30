@@ -23,9 +23,10 @@ $ npm run ios
 
 Make forwarding ports on Android (to make available access localhost from Android)
 ```
-port for react-native
+# port for react-native
 $ adb reverse tcp:8081 tcp:8081
-port for socket.io server
+
+# port for socket.io server
 $ adb reverse tcp:3000 tcp:3000
 ```
 
