@@ -1,7 +1,9 @@
 import {
-  AppRegistry
+  AppRegistry,
 } from 'react-native';
 
-import SocketIOExample from './client/SocketIOExample.component';
+import App from './js/App';
 
-AppRegistry.registerComponent('SocketIOExample', () => SocketIOExample);
+AppRegistry.registerComponent('SocketIOExample', () => App);
+
+export default App;
