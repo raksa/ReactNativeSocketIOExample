@@ -44,3 +44,7 @@ Starting react-native serve
 ```
 $ npm start
 ```
+Link react-native
+```
+$ react-native link react-native-vector-icons
+```
